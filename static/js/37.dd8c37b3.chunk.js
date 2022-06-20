@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrobofriends=self.webpackChunkrobofriends||[]).push([[37],{37:function(e,n,s){s.r(n);s(791);var a=s(184);n.default=function(e){return e.onRouteChange,(0,a.jsx)("div",{className:"pa3",children:(0,a.jsx)("h1",{className:"f1",children:"Welcome to Page Lazy"})})}}}]);
+//# sourceMappingURL=37.dd8c37b3.chunk.js.map
