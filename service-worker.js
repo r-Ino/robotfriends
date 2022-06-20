@@ -1,0 +1,2 @@
+[{'revision':'1164c46c389edbb7c03bbfc99d420739','url':'/robotfriends/index.html'},{'revision':null,'url':'/robotfriends/static/css/main.bdd04402.css'},{'revision':null,'url':'/robotfriends/static/js/37.dd8c37b3.chunk.js'},{'revision':null,'url':'/robotfriends/static/js/787.32032a02.chunk.js'},{'revision':null,'url':'/robotfriends/static/js/main.80d945a1.js'}];
+//# sourceMappingURL=service-worker.js.map
