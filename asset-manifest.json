@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/robotfriends/static/css/main.bdd04402.css",
-    "main.js": "/robotfriends/static/js/main.95180eab.js",
+    "main.css": "/robotfriends/static/css/main.cf794ca8.css",
+    "main.js": "/robotfriends/static/js/main.fc39c071.js",
     "static/js/37.dd8c37b3.chunk.js": "/robotfriends/static/js/37.dd8c37b3.chunk.js",
     "static/js/787.32032a02.chunk.js": "/robotfriends/static/js/787.32032a02.chunk.js",
-    "index.html": "/robotfriends/index.html",
     "service-worker.js": "/robotfriends/service-worker.js",
-    "main.bdd04402.css.map": "/robotfriends/static/css/main.bdd04402.css.map",
-    "main.95180eab.js.map": "/robotfriends/static/js/main.95180eab.js.map",
+    "index.html": "/robotfriends/index.html",
+    "main.cf794ca8.css.map": "/robotfriends/static/css/main.cf794ca8.css.map",
+    "main.fc39c071.js.map": "/robotfriends/static/js/main.fc39c071.js.map",
     "37.dd8c37b3.chunk.js.map": "/robotfriends/static/js/37.dd8c37b3.chunk.js.map",
     "787.32032a02.chunk.js.map": "/robotfriends/static/js/787.32032a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd04402.css",
-    "static/js/main.95180eab.js"
+    "static/css/main.cf794ca8.css",
+    "static/js/main.fc39c071.js"
   ]
 }
