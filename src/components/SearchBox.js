@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {memo} from 'react';
 
 const SearchBox = ({searchField, searchChange}) => {
+
+    console.log('SearchBox')
     return (
         <div className='pa2'>
         <input
@@ -14,4 +16,4 @@ const SearchBox = ({searchField, searchChange}) => {
 
 };
 
-export default SearchBox;
+export default memo ( SearchBox);
