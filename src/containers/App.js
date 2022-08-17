@@ -1,7 +1,8 @@
 //import logo from '../logo.svg';
 import './App.css';
 import React, {useState, useEffect, lazy, Suspense} from "react";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch, useSelector, Provider} from "react-redux";
+
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 import Scroll from "../components/Scroll";
@@ -39,8 +40,8 @@ function App(props) {
     //const [robots, setRobots] = useState([])
     //const [searchField, setSearchfield] = useState('')
     const [count, setCount] = useState(0)
-    //const storeState = useSelector(state => state)
-    const searchField = useSelector(state => state.searchRobots.searchField)
+    const storeState = useSelector(state => state)
+    const searchField = useSelector(state =>state.searchRobots.searchField)
     const robots = useSelector(state => state.requestRobots.robots)
     const isPending = useSelector(state => state.requestRobots.pending)
     const error = useSelector(state => state.requestRobots.error)
@@ -88,7 +89,7 @@ function App(props) {
     // Mettre à jour le titre du document en utilisant l'API du navigateur
     if (route === 'page1') {
         //setPageChange( <Page1 />)
-        pageChange = <Page1 onRouteChange={onRouteChange} />;
+        pageChange =    <Page1 onRouteChange={onRouteChange} />;
         console.log('route1');
 
     } else if(route === 'page2'){
@@ -128,7 +129,9 @@ function App(props) {
                 <button className='dib f6 link dim ba bw1 ph3 pv2 mb2 dib dark-blue'
                         onClick={() => setCount(count + 1)}>Click Me!
                 </button>
+
                 <SearchBox searchChange={onSearchChange}/>
+
                 <nav>
                         {pageChange}
                 </nav>
@@ -147,6 +150,7 @@ function App(props) {
             </Suspense>
 
         </div>
+
     )
 
     /*render() {
